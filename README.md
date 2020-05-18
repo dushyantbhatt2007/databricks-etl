@@ -30,7 +30,7 @@ adb_etl/
  setup.py
 ```
 
-The main Python module containing the ETL job , is `jobs/etl_job.py`. Any external configuration parameters required by `etl_job.py` are stored in Class file in `configs/etl_config.py`. Additional modules that support this job can be kept in the `dependencies` folder (more on this later). Unit test modules are kept in the `tests` folder and small chunks of representative input and output data, to be used with the tests, are kept in `tests/test_data` folder.
+The main Python module containing the ETL job , is `jobs/etl_job.py`. Any external configuration parameters required by `etl_job.py` are stored in Class file in `configs/etl_config.py`. Additional modules that support this job can be kept in the `dependencies` folder. Unit test modules are kept in the `tests` folder and small chunks of representative input and output data, to be used with the tests, are kept in `tests/test_data` folder.
 
 ## Passing Configuration Parameters to the ETL Job
 
