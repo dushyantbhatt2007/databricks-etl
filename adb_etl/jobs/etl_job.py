@@ -23,7 +23,7 @@ def main(config: Config) -> None:
     return None
 
 
-def extract_data(spark, config):
+def extract_data(spark: SparkSession, config: Config) -> SparkDataFrame:
     """Load data from Parquet file format.
     :param spark: Spark session object.
     :param config: config object
