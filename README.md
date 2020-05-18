@@ -39,7 +39,7 @@ In this example we have used `configs/etl_config.py`
 
 ```python
 class Config():
-    COMMON_DQS_SCOPE = '<databricks scope name>'
+    SCOPE_NAME = '<databricks scope name>'
 
     #Replace the Key name from Key Vault for azure active directory tenant id, client id and secret
     TENANT_ID = '<aad tenant_id>' 

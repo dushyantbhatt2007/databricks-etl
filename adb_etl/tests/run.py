@@ -4,11 +4,11 @@ from adb_etl.configs.etl_config import *
 # trigger main function
 
 config = Config()
-config.COMMON_DQS_SCOPE = ''
-config.TENANT_ID = ''
-config.CLIENT_ID = ''
-config.SECRET = ''
+config.SCOPE_NAME = '<databricks_scope_name>'
+config.TENANT_ID = '<aad tenant_id>'
+config.CLIENT_ID = '<aad_client_id>'
+config.SECRET = '<aad_client_secret>'
 config.STEPS_PER_FLOOR = 21
-config.DATA_LAKE = ''
+config.DATA_LAKE = '<data_lake_url>'
 
 main(config=config)
