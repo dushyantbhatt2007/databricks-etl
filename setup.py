@@ -6,14 +6,13 @@ from shutil import rmtree
 from setuptools import find_packages, setup, Command
 
 # Package meta-data.
-NAME = 'dq'
+NAME = 'databricks-etl'
 DESCRIPTION = ''
 URL = 'https://github.com/'
 EMAIL = ''
 AUTHOR = 'Dushyant'
 REQUIRES_PYTHON = '>=3.6.0'
 VERSION = '0.0.1'
-
 
 with open('requirements.txt') as f:
     required = f.read().splitlines()
@@ -49,8 +48,6 @@ if not VERSION:
         exec(f.read(), about)
 else:
     about['__version__'] = VERSION
-
-
 
 # Where the magic happens:
 setup(
