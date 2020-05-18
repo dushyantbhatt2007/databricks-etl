@@ -1,4 +1,4 @@
-# PySpark Example Project
+# PySpark Example Project - Databricks
 
 This document is designed to be read in parallel with the code in the `pyspark-template-project` repository. Together, these constitute what we consider to be a 'best practices' approach to writing ETL jobs using Apache Spark and its Python ('PySpark') APIs using Databricks. This project addresses the following topics:
 
