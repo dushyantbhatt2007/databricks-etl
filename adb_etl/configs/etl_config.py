@@ -1,7 +1,7 @@
 class Config():
     SCOPE_NAME = '<databricks_scope_name>'
 
-    # Replace the Key name from Key Vault for azure active directory tenant id, client id and secret
+    # Replace the Key name from Key Vault of azure active directory tenant id, client id and secret
     TENANT_ID = '<aad tenant_id>'
     CLIENT_ID = '<aad_client_id>'
     SECRET = '<aad_client_secret>'
